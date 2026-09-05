@@ -72,9 +72,6 @@ Her doğrulama için hem olumlu hem olumsuz kontrol ayrı ayrı sorulmuş, `NULL
 
 Zafiyet hem **senkron postback** hem de **asenkron (AJAX/delta) postback** akışında aynı biçimde tetiklenebilmektedir; yani sorunu istemci tarafındaki tek bir akışı engelleyerek kapatmak mümkün değildir.
 
-### Aynı İstekte Denenip Zafiyetli Bulunmayan Parametreler
-
-Kapsamın doğru belirlenebilmesi için, aynı istek gövdesindeki **235 parametrenin 227'si** hem tırnak enjeksiyonu hem de boolean orakıl yöntemiyle tek tek taranmış; kalan 8 alan elle incelenmiştir. Kullanıcı kimliği, sayfa damgası, sayfalama/limit alanları, serbest metin filtre alanları ve şifreli sorgu blob'ları dâhil hiçbirinde SQL enjeksiyonu tespit edilmemiştir.
 
 **Zafiyet münhasıran sıralama sütunu parametresindedir.** Ancak ürünün diğer modüllerindeki liste/ızgara ekranlarının aynı ortak sıralama kod yolunu kullanması kuvvetle muhtemel olduğundan, düzeltmenin tek bir sayfayla sınırlı tutulmaması gerekmektedir.
 
