@@ -1,4 +1,4 @@
-# Iron Mountain enVision EBYS'de Kimlik Doğrulamalı SQL Enjeksiyonu (ORDER BY) Zafiyeti
+# Iron Mountain enVision EBYS'de Kimlik Doğrulamalı SQL Enjeksiyonu Zafiyeti
 
 ## Genel Bakış
 
