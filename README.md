@@ -145,3 +145,4 @@ Hasan Hüseyin UYAR – Netlore Security
 | 2026-09-01 | Zafiyet yeni bir oturumda ve asenkron postback akışında yeniden doğrulandı |
 | 2026-09-04 | Ürün sürümü `v8.2.d1606.b260264.c0.u0` üzerinde üçüncü kez doğrulandı; zafiyet hâlâ açık |
 |2026-09-08  |CVE-2026-86595 Kimliği atandı |
+|2026-09-28  |https://www.cve.org/CVERecord?id=CVE-2026-86595 Kimliği ile yayınlandı |
