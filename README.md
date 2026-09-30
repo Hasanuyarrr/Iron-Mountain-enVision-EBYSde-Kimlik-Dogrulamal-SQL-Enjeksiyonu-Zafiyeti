@@ -1,4 +1,4 @@
-# Iron Mountain enVision EBYS'de Kimlik Doğrulamalı SQL Enjeksiyonu Zafiyeti
+# Iron Mountain enVision EBYS'de Kimlik Doğrulamalı SQL Enjeksiyonu Zafiyeti (CVE-2026-86595)
 
 ## Genel Bakış
 
